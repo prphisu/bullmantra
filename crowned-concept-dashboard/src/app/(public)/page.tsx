@@ -641,7 +641,7 @@ const Footer = () => {
           <address className="not-italic flex flex-col gap-2">
             <p>Your Address Here</p>
             <a href="mailto:support@bullmantra.com" className="hover:text-accent-blue">support@bullmantra.com</a>
-            <a href="tel:+911234567890" className="hover:text-accent-blue">+91 123 456 7890</a>
+            <a href="tel:+911234567890" className="hover:text-accent-blue">+91 933  742 7675</a>
           </address>
         </div>
       </div>

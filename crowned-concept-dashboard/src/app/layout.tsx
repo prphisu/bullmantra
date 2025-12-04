@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Dazzle Staging & Design",
+  title: "Bull Mantra",
 };
 
 export default function RootLayout({
