@@ -367,7 +367,7 @@ const ServicesSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-text-primary">Our Premium Courses</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-text-secondary">Our Premium Courses</h2>
           <p className="mt-4 text-text-secondary">
             Master the market with our expertly crafted trading curriculum.
           </p>
