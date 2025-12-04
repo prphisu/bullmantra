@@ -13,7 +13,7 @@ export default function TestimonialsSection() {
                     transition={{ duration: 0.8 }}
                 >
                     <p className="text-2xl md:text-3xl font-medium max-w-3xl mx-auto">
-                        "This platform completely changed how our team works. We're shipping features faster than ever before."
+                        This platform completely changed how our team works. We are shipping features faster than ever before.
                     </p>
                     <div className="mt-8">
                         <p className="font-semibold">Alex Johnson</p>

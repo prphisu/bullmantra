@@ -71,8 +71,8 @@ export default function TestimonialSection() {
                     <Image src={testimonial.image} alt={testimonial.name} fill style={{objectFit: 'cover'}}/>
                   </div>
                   <div className="flex flex-col justify-center">
-                      <div className="flex items-center gap-1 mb-4 text-yellow-500">{[...Array(5)].map((_, i) => <Star key={i} size={20} fill="currentColor" />)}</div>
-                      <p className="text-lg text-brand-text-light mb-6 italic">"{testimonial.quote}"</p>
+                      <div className="flex items-center gap-1 mb-4 text-yellow-500">{[...Array(5)]?.map((_, i) => <Star key={i} size={20} fill="currentColor" />)}</div>
+                      <p className="text-lg text-brand-text-light mb-6 italic">{testimonial.quote}</p>
                       <div>
                           <p className="font-bold text-brand-text">{testimonial.name}</p>
                           <p className="text-sm text-brand-text-light">{testimonial.title}</p>

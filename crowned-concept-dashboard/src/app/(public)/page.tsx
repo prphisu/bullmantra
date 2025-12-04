@@ -197,7 +197,7 @@ const HeroSection = ({ onOpenRegister }: { onOpenRegister: () => void }) => {
             Welcome to Our Platform
           </h1>
           <p className="mt-4 text-gray-300 text-xl mb-8">
-            Master the markets with India's #1 trading community.
+            Master the markets with Indian #1 trading community.
           </p>
           <div className="flex justify-center">
             <Button onClick={onOpenRegister} variant="primary">
@@ -473,7 +473,7 @@ const WhyChooseUsSection = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-text-primary">Why <span className="text-accent-blue">Bull Mantra?</span></h2>
           <p className="mt-4 text-text-secondary">
-            We don't just teach theory; we build profitable traders. Experience the power of live mentorship, actionable strategies, and a supportive community.
+            We don,t just teach theory; we build profitable traders. Experience the power of live mentorship, actionable strategies, and a supportive community.
           </p>
           <div className="mt-8">
             <FaqItem q="Expert Mentorship" a="Learn directly from seasoned traders with years of proven market experience." />
@@ -552,7 +552,7 @@ const TestimonialsSection = () => {
                 ))}
               </div>
 
-              <p className="text-gray-300 mb-8 leading-relaxed line-clamp-4">"{review.comment}"</p>
+              <p className="text-gray-300 mb-8 leading-relaxed line-clamp-4">{review.comment}</p>
 
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-accent-blue/20 bg-gray-800">

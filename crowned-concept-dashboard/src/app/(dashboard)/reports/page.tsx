@@ -154,7 +154,7 @@ export default function TestimonialsPage() {
             <div className="flex text-yellow-400 mb-2">
               {[...Array(5)].map((_, i) => <Star key={i} size={16} fill={i < t.rating ? "currentColor" : "none"} className={i >= t.rating ? "text-gray-300" : ""} />)}
             </div>
-            <p className="text-gray-600 text-sm flex-1">"{t.comment}"</p>
+            <p className="text-gray-600 text-sm flex-1">{t.comment}</p>
             <div className="flex justify-end gap-2 mt-4 pt-4 border-t">
               <button onClick={() => handleEdit(t)} className="p-2 text-blue-600 hover:bg-blue-50 rounded"><Edit size={18}/></button>
               <button onClick={() => handleDelete(t.id)} className="p-2 text-red-600 hover:bg-red-50 rounded"><Trash2 size={18}/></button>

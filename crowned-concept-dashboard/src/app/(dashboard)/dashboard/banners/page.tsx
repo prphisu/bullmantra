@@ -126,9 +126,7 @@ export default function BannersPage() {
                 required 
               />
             </div>
-            <p className="text-xs text-gray-500 mt-1">
-              Tip: Place images in your 'public' folder and use the path (e.g., /my-image.jpg)
-            </p>
+           
           </div>
           
           <div className="md:col-span-2">

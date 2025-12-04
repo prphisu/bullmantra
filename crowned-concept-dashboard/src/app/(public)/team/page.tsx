@@ -201,7 +201,7 @@ export default function TeamPage() {
         <section className="py-20 px-6">
             <div className="container mx-auto">
                 <div className="bg-brand-primary text-white rounded-2xl p-12 md:p-20 text-center">
-                     <h2 className="font-serif text-4xl md:text-6xl leading-tight">Let's create something <span className="italic">timeless</span></h2>
+                     <h2 className="font-serif text-4xl md:text-6xl leading-tight">Lets create something <span className="italic">timeless</span></h2>
                      <p className="max-w-xl mx-auto mt-4 mb-8">Whether you have a vision in mind or are just exploring, our team is here to bring beauty, purpose, and elegance to your space.</p>
                      <Link href="#" className="px-6 py-3 rounded-full bg-white/90 backdrop-blur-sm text-brand-text font-semibold flex items-center gap-2 group w-fit mx-auto">
                         Contact us <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />

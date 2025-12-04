@@ -30,7 +30,7 @@ export default function PublicFooter() {
                     <div className="lg:col-span-2">
                         <Link href="/" className="font-serif text-3xl tracking-wider mb-4 block">D/S</Link>
                         <p className="font-serif text-xl italic text-brand-text-light max-w-xs mb-6">
-                            Let's create something timeless
+                            Lets create something timeless
                         </p>
                         <div className="flex items-center gap-4">
                             <a href="#" aria-label="Instagram" className="text-brand-text-light hover:text-brand-primary transition-colors"><Instagram /></a>
